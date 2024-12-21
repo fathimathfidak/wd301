@@ -1,0 +1,16 @@
+.TaskItem {
+  border: 1px solid #ccc;
+  
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.TaskItem h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.TaskItem p {
+  font-size: 14px;
+  color: #555;
+}
