@@ -1,0 +1,20 @@
+import { useNavigate } from "react-router-dom";
+
+const Signin = () => {
+  const navigate = useNavigate();
+
+  const handleSignin = () => {
+ 
+    localStorage.setItem("user", JSON.stringify({ name: "John Doe", email: "john@example.com" }));
+    navigate("/dashboard")
+  };
+
+  return (
+    <div>
+     
+      <button onClick={handleSignin}>Sign In</button>
+    </div>
+  );
+};
+
+export default Signin;
